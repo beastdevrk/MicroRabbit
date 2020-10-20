@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Domain.Core", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{9399C6B2-9BC4-4E56-9074-67F315C212B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{96D69D37-0712-4542-BC96-3522EE327872}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,18 @@ Global
 		{9399C6B2-9BC4-4E56-9074-67F315C212B5}.Release|x64.Build.0 = Release|Any CPU
 		{9399C6B2-9BC4-4E56-9074-67F315C212B5}.Release|x86.ActiveCfg = Release|Any CPU
 		{9399C6B2-9BC4-4E56-9074-67F315C212B5}.Release|x86.Build.0 = Release|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Debug|x64.Build.0 = Debug|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Debug|x86.Build.0 = Debug|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Release|x64.ActiveCfg = Release|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Release|x64.Build.0 = Release|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Release|x86.ActiveCfg = Release|Any CPU
+		{96D69D37-0712-4542-BC96-3522EE327872}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +72,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1DF00BDF-E055-48EA-BF00-38A6C481DF7B} = {7A5CE212-49EB-4FF8-9873-2BAEE35C0ECC}
 		{9399C6B2-9BC4-4E56-9074-67F315C212B5} = {2C28D0C8-194B-48D7-83FD-75E7A24B2050}
+		{96D69D37-0712-4542-BC96-3522EE327872} = {A75889C4-1547-447C-AC82-1C039908F479}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C078072-06BA-4965-A4AB-5227850A4756}
